@@ -156,6 +156,19 @@ span{
     }
 
  }
+ form{
+    height:100vh;
+    width: 50%;
+ }
+
+
+
+ 
+@media (max-width: 430px;){
+    #navbar div nav ul li a{
+        color: red;
+    }
+}
 
 
 
