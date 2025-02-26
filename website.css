@@ -131,7 +131,7 @@ span{
     width: 100%;
     border: 1px solid;
     animation: move 4s infinite;
-
+    
  }
  @keyframes move{
       0%{
