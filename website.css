@@ -36,7 +36,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 20%;
+    gap: 50px;
     white-space:nowrap;
     list-style: none;
     font-size: 15px;
@@ -52,10 +52,11 @@
 #navbar .icons{
     display: flex;
     gap: 50px;
+    /* margin-left: 80%; */
 }
 #navbar .call{
     display: flex;
-    gap: 20%;
+    /* gap: 20%; */
     white-space: nowrap;
     background-color: rgb(250, 127 ,99);
     color: white;
@@ -63,8 +64,8 @@
     border-radius: 20px;
     font-size: 14px;
     transition: 5s ease;/*transition se color timing slow hota he*/
-    width: 25%;
-    
+    width: 17%;
+
 }
 #navbar .call:hover{
     background-color: crimson;/*call:hover krne se call pr jake color change*/
@@ -168,7 +169,7 @@ span{
 #check{
     display: none;
 }
-@media(max-width:952px){
+@media (min-width:431px)and(max-width:768px){
     #navbar{
         display: none;
     }
@@ -219,20 +220,23 @@ span{
     #navbar #link{
         display: none;
     }
-    #navbar.icons{
+    #navbar .icons{
         display: none;
     }
-    #navbar.call{
+    #navbar .call{
         display: none;
     }
     #bars{
+        display: block;
         position: absolute;
         z-index: 999;
-        top: 8%;
+        top: 5%;
         right: 10%;
+        font-size: 20px;
     }
-    #chek:checked~#navbar #links{
+    #check:checked~#navbar #link{
         display: block;
+        
     }
 }
 
