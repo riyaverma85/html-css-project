@@ -51,7 +51,7 @@
 }
 #navbar .icons{
     display: flex;
-    gap: 50px;
+    gap: 20px;
     /* margin-left: 80%; */
 }
 #navbar .call{
@@ -236,13 +236,15 @@ span{
     }
     #check:checked~#navbar #link{
         display: block;
+        text-size-adjust: 90%;
+        font-weight: 600;
         
+    }
+    #navbar div nav ul{
+        gap: 20px;
     }
 }
 
 
 
  
-
-
-

@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Login Page</title>
+    <style>
+       
+        body {
+            font-family: Arial, sans-serif;
+            background-image: url('/cooking\ 1.jpg'); 
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-repeat: no-repeat;
+        }
+
+        .login-container {
+            background-color:rgb(42, 4, 4) ;
+            border-radius: 50px;
+            padding: 50px;
+            width: 50%;
+            max-width: 300px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            text-align: center;
+        }
+
+        h2 {
+            text-align: center;
+            margin-bottom: 20px;
+            color: #13a4f8;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+            text-align: left;
+        }
+
+        label {
+            font-weight: bold;
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        input[type="text"],
+        input[type="password"] {
+            width: 100%;
+            padding: 10px;
+            font-size: 16px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            margin-bottom: 10px;
+        }
+
+        .btn {
+            width: 100%;
+            padding: 10px;
+            background-color: #4CAF50;
+            color: white;
+            font-size: 16px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .btn:hover {
+            background-color: #45a049;
+        }
+
+        .social-login-btns {
+            margin-top: 20px;
+        }
+
+        .social-btn {
+            width: 100%;
+            padding: 10px;
+            color: white;
+            font-size: 16px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .social-btn img {
+            height: 20px;
+            margin-right: 8px;
+        }
+
+        .btn-facebook {
+            background-color: #3b5998;
+        }
+
+        .btn-google {
+            background-color: #db4437;
+        }
+
+        .btn-instagram {
+            background-color: #e1306c;
+        }
+
+        .links {
+            text-align: center;
+            margin-top: 10px;
+        }
+
+        .links a {
+            color: #007BFF;
+            text-decoration: none;
+        }
+
+        .links a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="login-container">
+        <h2>Cooking Login Page</h2>
+
+        <!-- Login Form -->
+        <form action="login.html" method="post" id="login-form">
+            <div class="form-group">
+                <label for="username">Username</label>
+                <input type="text" id="username" name="username" placeholder="Enter your username" required aria-label="Username">
+            </div>
+
+            <div class="form-group">
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" placeholder="Enter your password" required aria-label="Password">
+            </div>
+
+            <button type="submit" class="btn">Login</button>
+        </form>
+
+        <!-- Forgot Password and Signup Links -->
+        <div class="links">
+            <p><a href="forgot-password.html">Forgot Password?</a></p>
+            <p>New member? <a href="signup.html">Sign up now</a></p>
+        </div>
+    </div>
+
+</body>
+
+</html>
