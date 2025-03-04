@@ -24,7 +24,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 0px;
-    background-color:rgb(90, 138, 138,0.582);
+    background-color:rgba(121, 194, 194, 0.582);
     font-weight: 600;
     padding-top: 5px;
     
@@ -48,7 +48,7 @@
      color: black;
 }
 #navbar div nav ul li a:hover{/*navbar ke icon ka color change hota h*/
-    color: rgb(228, 29, 29);
+    color: rgb(205, 66, 66);
     font-size: 20px;
 }
 #navbar .icons{
@@ -72,9 +72,11 @@
 #navbar .call:hover{
     background-color: crimson;/*call:hover krne se call pr jake color change*/
     transform:/* rotate(180deg) */scale(0.5);/* rotate ghum jata h ---scale size bada chota hota h*/
-
 }
-
+.icons i:hover{
+    background-color: crimson;
+    transform: scale(1.5);
+}
 #home {
     width: 100%;
     border: 1px solid black;
