@@ -116,9 +116,12 @@ span{
     font-weight: 600;
 }
  button{
-    background-color: rgb(237, 64, 64);
-    color:white
+    background-color:palevioletred;
+    font-size: larger;
+    
  }
+ 
+ 
 
 
  #video-background {
@@ -138,6 +141,14 @@ span{
     border: 1px solid;
     animation: move 4s infinite;
     
+ }
+
+ .box1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
  }
  @keyframes move{
       0%{
