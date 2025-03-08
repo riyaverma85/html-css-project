@@ -37,3 +37,12 @@ button {
 button:hover {
     background: #b33e00;
 }
+@media only screen and (max-width:600px){
+    .container{
+        background-color: rgba(239, 41, 239, 0.52);
+    }
+    .container h2{
+        color: black;
+        font-style: italic;
+    }
+}

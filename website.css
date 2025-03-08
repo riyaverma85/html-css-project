@@ -87,6 +87,14 @@
     font-style: italic;
     font-size: xx-large;
 }
+.box1{
+    color: white;
+     justify-content: center;
+}
+.book-table{
+    background-color: red;
+   border-style: ;
+}
 
 /*----------------------------------*/
  #heromain{
