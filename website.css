@@ -199,7 +199,7 @@ span{
  /*======mobile screen ke liye=====*/
 @media(max-width:430px){
     #navbar  div nav ul li a{
-        color: red;
+        color:white;
     }
     #navbar #link{
      display: none;
@@ -237,7 +237,7 @@ span{
     top: 10%;
     left: 0%;
     width: 100%;
-    background-color: aqua;
+    background-color:rgba(19, 16, 16, 0.52);
     background-size: auto;
    }
 }
