@@ -5,13 +5,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Book a Table | Our Rasoi</title>
-    <link rel="stylesheet" href="book_table.css">
+    <link rel="stylesheet" href="./book_table.css">
 </head>
 <style>
     .contai{
     display: grid;
     place-items:center;
-
+    position: absolute;
+    top: 5%;
+    right: 2%;
+    z-index: 99;
 }
 .group-menu{
     cursor: pointer;
@@ -23,6 +26,22 @@
     background-color: black;
     margin-top: 4px;
     
+}
+.framel{
+    visibility: hidden;
+}
+.framel .info{
+    font-size: 20px;
+    color: white;
+    border-bottom:1px solid white ;
+    padding-top:13px ;
+    cursor: pointer;
+}
+.framel .info:hover{
+    background-color: black;
+}
+.framel .info span{
+    margin-left: 10px;
 }
 .style{
     width: 200px;
@@ -56,19 +75,29 @@
     </div>
 
 <div class="contai">
-<div class="group-menu" ondblclick="fun()">
+<div class="group-menu" onclick="fun()">
     <div class="dot"></div>
     <div class="dot"></div>
     <div class="dot"></div>
 </div>
 <div class="framel" id="framel">
+    <div class="info"><span>new</span></div>
+    <div class="info"><span>histroy</span></div>
+    <div class="info"><span>downloda</span></div>
+    <div class="info"><span>print</span></div>
+    <div class="info"><span>view</span></div>
+    <div class="info"><span>setting</span></div>
+    <div class="info"><span>exit</span></div>
 </div>
-</div>
+
 <script>
     function fun(){
-        document.getElementById("framel").classList.add(".style")
+        document.getElementById("framel").style.visibility="visible";
+        document.getElementById("framel").classList.add("style");
     }
+    
+    
 </script>
-
+</div>
 </body>
 </html>
