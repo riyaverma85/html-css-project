@@ -46,6 +46,49 @@ button:hover {
         color: black;
         font-style: italic;
     }
+    .contai{
+        display: grid;
+        place-items:center;
+        position: absolute;
+        top: 5%;
+        right: 2%;
+        z-index: 99;
+    }
+    .group-menu{
+        cursor: pointer;
+    }
+    .dot{
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        background-color: black;
+        margin-top: 4px;
+        
+    }
+    .framel{
+        visibility: hidden;
+    }
+    .framel .info{
+        font-size: 20px;
+        color: white;
+        border-bottom:1px solid white ;
+        padding-top:13px ;
+        cursor: pointer;
+    }
+    .framel .info:hover{
+        background-color: black;
+    }
+    .framel .info span{
+        margin-left: 10px;
+    }
+    .style{
+        width: 200px;
+        height: 270px;
+        background-color: black;
+        margin-top: 5px;
+        margin-left: -180px;
+        border-radius: 10px;
+    }
     
 }
 
