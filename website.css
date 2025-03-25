@@ -258,3 +258,143 @@ span{
     
 }
 
+
+/* Reset Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Header */
+.header {
+    background-color: #f4a261;
+    color: #fff;
+    text-align: center;
+    padding: 30px;
+    font-size: 24px;
+}
+
+/* Main Content */
+.content {
+    min-height: 60vh; /* Adjust height so footer stays at bottom */
+    text-align: center;
+    padding: 50px 20px;
+    font-size: 20px;
+}
+
+/* Footer Styles */
+.footer {
+    background-color: #222;
+    color: #fff;
+    padding: 50px 0;
+    text-align: center;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Container: Flexbox for Layout */
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 20px;
+}
+
+/* Footer Sections */
+.footer-section {
+    flex: 1;
+    min-width: 280px; /* Increased min-width for better alignment */
+    margin: 10px;
+    text-align: left;
+}
+
+/* Heading Font Size */
+.footer-section h3 {
+    font-size: 24px; /* Larger for better readability */
+    margin-bottom: 15px;
+    color: #f4a261;
+    font-weight: bold;
+}
+
+/* Paragraph & List Font Size */
+.footer-section p,
+.footer-section ul {
+    font-size: 16px; /* Slightly increased for clarity */
+    line-height: 1.7;
+    color: #ddd;
+}
+
+/* Links & List Styling */
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 12px;
+}
+
+.footer-section ul li a {
+    text-decoration: none;
+    color: #ddd;
+    font-size: 16px; /* Improved readability */
+    transition: 0.3s;
+}
+
+.footer-section ul li a:hover {
+    color: #f4a261;
+    font-size: 17px; /* Slight zoom effect on hover */
+}
+
+/* Social Icons */
+.social-icons {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.social-icons a {
+    display: inline-block;
+    color: #fff;
+    font-size: 24px; /* Bigger icons for better visibility */
+    margin: 0 12px;
+    transition: 0.3s;
+}
+
+.social-icons a:hover {
+    color: #f4a261;
+    transform: scale(1.2);
+}
+
+/* Footer Bottom */
+.footer-bottom {
+    text-align: center;
+    font-size: 15px;
+    border-top: 1px solid #444;
+    padding-top: 15px;
+    margin-top: 20px;
+    color: #aaa;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer-section {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .social-icons {
+        justify-content: center;
+    }
+}
