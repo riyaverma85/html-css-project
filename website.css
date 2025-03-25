@@ -47,7 +47,7 @@
      text-decoration:none;
      color: black;
 }
-#navbar div nav ul li a:hover{/*navbar ke icon ka color change hota h*/
+#navbar div nav ul li a:hover{
     color: rgb(205, 66, 66);
     font-size: 20px;
 }
@@ -259,15 +259,13 @@ span{
 }
 
 
-/* Reset Styles */
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: Arial, sans-serif;
 }
-
-/* Header */
 .header {
     background-color: #f4a261;
     color: #fff;
@@ -276,15 +274,14 @@ span{
     font-size: 24px;
 }
 
-/* Main Content */
 .content {
-    min-height: 60vh; /* Adjust height so footer stays at bottom */
+    min-height: 60vh; 
     text-align: center;
     padding: 50px 20px;
     font-size: 20px;
 }
 
-/* Footer Styles */
+
 .footer {
     background-color: #222;
     color: #fff;
@@ -296,7 +293,7 @@ span{
     align-items: center;
 }
 
-/* Container: Flexbox for Layout */
+
 .container {
     display: flex;
     flex-wrap: wrap;
@@ -306,31 +303,30 @@ span{
     padding: 0 20px;
 }
 
-/* Footer Sections */
 .footer-section {
     flex: 1;
-    min-width: 280px; /* Increased min-width for better alignment */
+    min-width: 280px; 
     margin: 10px;
     text-align: left;
 }
 
-/* Heading Font Size */
+
 .footer-section h3 {
-    font-size: 24px; /* Larger for better readability */
+    font-size: 24px; 
     margin-bottom: 15px;
     color: #f4a261;
     font-weight: bold;
 }
 
-/* Paragraph & List Font Size */
+
 .footer-section p,
 .footer-section ul {
-    font-size: 16px; /* Slightly increased for clarity */
+    font-size: 16px; 
     line-height: 1.7;
     color: #ddd;
 }
 
-/* Links & List Styling */
+
 .footer-section ul {
     list-style: none;
     padding: 0;
@@ -343,16 +339,15 @@ span{
 .footer-section ul li a {
     text-decoration: none;
     color: #ddd;
-    font-size: 16px; /* Improved readability */
+    font-size: 16px; 
     transition: 0.3s;
 }
 
 .footer-section ul li a:hover {
     color: #f4a261;
-    font-size: 17px; /* Slight zoom effect on hover */
+    font-size: 17px; 
 }
 
-/* Social Icons */
 .social-icons {
     margin-top: 20px;
     display: flex;
@@ -362,7 +357,7 @@ span{
 .social-icons a {
     display: inline-block;
     color: #fff;
-    font-size: 24px; /* Bigger icons for better visibility */
+    font-size: 24px; 
     margin: 0 12px;
     transition: 0.3s;
 }
@@ -372,7 +367,7 @@ span{
     transform: scale(1.2);
 }
 
-/* Footer Bottom */
+
 .footer-bottom {
     text-align: center;
     font-size: 15px;
@@ -382,7 +377,7 @@ span{
     color: #aaa;
 }
 
-/* Responsive Design */
+
 @media (max-width: 768px) {
     .container {
         flex-direction: column;
