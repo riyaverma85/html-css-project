@@ -58,7 +58,6 @@
 }
 #navbar .call{
     display: flex;
-    /* gap: 20%; */
     white-space: nowrap;
     background-color: rgb(250, 127 ,99);
     color: white;
